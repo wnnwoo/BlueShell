@@ -1,6 +1,5 @@
 # BlueShell
 
-# the build status icon
 [![Build Status](https://travis-ci.org/wnnwoo/BlueShell.svg?branch=master)](https://travis-ci.org/wnnwoo/BlueShell)
 
 A bluetooth command line tool running on MacOS
