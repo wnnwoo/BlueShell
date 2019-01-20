@@ -2,7 +2,7 @@ os: osx
 language: objective-c
 osx_image: xcode10.1
 xcode_project: BlueShell.xcodeproj
-xcode_scheme: BlueShell
+xcode_scheme: BlueShellTest
 xcode_destination: platform=macOS
 branches:
   only:
