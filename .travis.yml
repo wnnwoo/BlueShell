@@ -6,7 +6,7 @@ xcode_scheme: BlueShell
 xcode_destination: platform=macOS
 branches:
   only:
-    -master
+    - master
 notifications:
   email:
     recipients:
