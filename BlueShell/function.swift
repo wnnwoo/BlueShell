@@ -37,7 +37,22 @@ func testAllFunc() -> Bool{
     let numbers = [20, 19, 7, 12]
     let matched = hasAnyMatches(list: numbers, condition: lessThanTen)
     print(matched)
-
+    
+   //7. Functions are actually a special case of closures: blocks of code that can be called later. The code in a closure has access to things like variables and functions that were available in the scope where the closure was created, even if the closure is in a different scope when it is executed—you saw an example of this already with nested functions. You can write a closure without a name by surrounding code with braces ({}). Use in to separate the arguments and return type from the body.
+    
+    numbers.map({ (number: Int) -> Int in
+        let result = 3 * number
+        return result
+    })
+    
+    let mappedNumbers = numbers.map({ number in 3 * number })
+    print(mappedNumbers)
+    // Prints "[60, 57, 21, 36]"
+    
+    let sortedNumbers = numbers.sorted { $0 > $1 }
+    print(sortedNumbers)
+    // Prints "[20, 19, 12, 7]"
+    
     return false
 }
 
@@ -103,4 +118,5 @@ func hasAnyMatches(list: [Int], condition: (Int) -> Bool) -> Bool {
 func lessThanTen(number: Int) -> Bool {
     return number < 10
 }
+
 
