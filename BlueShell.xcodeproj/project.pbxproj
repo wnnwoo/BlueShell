@@ -12,6 +12,7 @@
 		7414F1F321F41F7E00A9E30D /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414F1F221F41F7E00A9E30D /* class.swift */; };
 		7414F1F521F4205F00A9E30D /* controlflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414F1F421F4205F00A9E30D /* controlflow.swift */; };
 		7414F1F721F4221400A9E30D /* bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414F1F621F4221400A9E30D /* bluetooth.swift */; };
+		747263F421F4CEBF00B2517C /* BlueShellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747263F321F4CEBF00B2517C /* BlueShellTest.swift */; };
 		747625FA21F0CDA300A773AB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747625F921F0CDA300A773AB /* main.swift */; };
 		7476260221F0CDC200A773AB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7476260121F0CDC200A773AB /* CoreBluetooth.framework */; };
 		7476260421F0CE1800A773AB /* basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476260321F0CE1800A773AB /* basic.swift */; };
@@ -35,6 +36,9 @@
 		7414F1F221F41F7E00A9E30D /* class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
 		7414F1F421F4205F00A9E30D /* controlflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controlflow.swift; sourceTree = "<group>"; };
 		7414F1F621F4221400A9E30D /* bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bluetooth.swift; sourceTree = "<group>"; };
+		747263F121F4CEBF00B2517C /* BlueShellTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueShellTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		747263F321F4CEBF00B2517C /* BlueShellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueShellTest.swift; sourceTree = "<group>"; };
+		747263F521F4CEBF00B2517C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		747625F621F0CDA300A773AB /* BlueShell */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlueShell; sourceTree = BUILT_PRODUCTS_DIR; };
 		747625F921F0CDA300A773AB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7476260121F0CDC200A773AB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -42,6 +46,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		747263EE21F4CEBF00B2517C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		747625F321F0CDA300A773AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,10 +64,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		747263F221F4CEBF00B2517C /* BlueShellTest */ = {
+			isa = PBXGroup;
+			children = (
+				747263F321F4CEBF00B2517C /* BlueShellTest.swift */,
+				747263F521F4CEBF00B2517C /* Info.plist */,
+			);
+			path = BlueShellTest;
+			sourceTree = "<group>";
+		};
 		747625ED21F0CDA300A773AB = {
 			isa = PBXGroup;
 			children = (
 				747625F821F0CDA300A773AB /* BlueShell */,
+				747263F221F4CEBF00B2517C /* BlueShellTest */,
 				747625F721F0CDA300A773AB /* Products */,
 				7476260021F0CDC200A773AB /* Frameworks */,
 			);
@@ -66,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				747625F621F0CDA300A773AB /* BlueShell */,
+				747263F121F4CEBF00B2517C /* BlueShellTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +117,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		747263F021F4CEBF00B2517C /* BlueShellTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747263F821F4CEBF00B2517C /* Build configuration list for PBXNativeTarget "BlueShellTest" */;
+			buildPhases = (
+				747263ED21F4CEBF00B2517C /* Sources */,
+				747263EE21F4CEBF00B2517C /* Frameworks */,
+				747263EF21F4CEBF00B2517C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueShellTest;
+			productName = BlueShellTest;
+			productReference = 747263F121F4CEBF00B2517C /* BlueShellTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		747625F521F0CDA300A773AB /* BlueShell */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 747625FD21F0CDA300A773AB /* Build configuration list for PBXNativeTarget "BlueShell" */;
@@ -122,6 +161,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = WnnWoo;
 				TargetAttributes = {
+					747263F021F4CEBF00B2517C = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					747625F521F0CDA300A773AB = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -140,11 +182,30 @@
 			projectRoot = "";
 			targets = (
 				747625F521F0CDA300A773AB /* BlueShell */,
+				747263F021F4CEBF00B2517C /* BlueShellTest */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		747263EF21F4CEBF00B2517C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		747263ED21F4CEBF00B2517C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747263F421F4CEBF00B2517C /* BlueShellTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		747625F221F0CDA300A773AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +223,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		747263F621F4CEBF00B2517C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 27PSKW9MUQ;
+				INFOPLIST_FILE = BlueShellTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blueface.BlueShellTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		747263F721F4CEBF00B2517C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 27PSKW9MUQ;
+				INFOPLIST_FILE = BlueShellTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blueface.BlueShellTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		747625FB21F0CDA300A773AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -302,6 +399,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		747263F821F4CEBF00B2517C /* Build configuration list for PBXNativeTarget "BlueShellTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747263F621F4CEBF00B2517C /* Debug */,
+				747263F721F4CEBF00B2517C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		747625F121F0CDA300A773AB /* Build configuration list for PBXProject "BlueShell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
