@@ -40,7 +40,8 @@ func testVariable() -> Bool{
     print(fruitSummary)
     
     //Type Annoation
-    var welcomeMessage: String
+    let welcomeMessage: String = "Welcome to Beijing"
+    print(welcomeMessage)
     
     //4. multiline need """ as a mark
     let quotation = """

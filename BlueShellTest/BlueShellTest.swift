@@ -25,6 +25,10 @@ class BlueShellTest: XCTestCase {
         XCTAssert(true)
     }
 
+    func testClass()  {
+        XCTAssert(true) // Just for test
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

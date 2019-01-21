@@ -8,7 +8,7 @@
 
 import Foundation
 
-func testClass() -> Bool {
+func testClassFunc() -> Bool {
     
     let shape = Shape()
     shape.numberOfSides = 7
@@ -22,14 +22,15 @@ func testClass() -> Bool {
     print(test.area())
     print(test.simpleDescription())
 
-    var triangle = EquilateralTriangle(sideLength: 3.1, name: "a triangle")
+    let triangle = EquilateralTriangle(sideLength: 3.1, name: "a triangle")
     print(triangle.perimeter)
     // Prints "9.3"
     triangle.perimeter = 9.9
     print(triangle.sideLength)
     // Prints "3.3000000000000003"
+    print(triangle)
     
-    var triangleAndSquare = TriangleAndSquare(size: 10, name: "another test shape")
+    let triangleAndSquare = TriangleAndSquare(size: 10, name: "another test shape")
     print(triangleAndSquare.square.sideLength)
     // Prints "10.0"
     print(triangleAndSquare.triangle.sideLength)
@@ -44,7 +45,7 @@ func testClass() -> Bool {
     print(optionalSquare)
     print(sideLength)
     
-    return true;
+    return true
 }
 
 //
