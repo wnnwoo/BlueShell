@@ -22,5 +22,8 @@ print("Swift unit test")
 //let classTest = testClassFunc()
 //print("Class test result: " + String(classTest))
 
-let enumTest = testEnum()
-print("Enum test result: " + String(enumTest))
+//let enumTest = testEnum()
+//print("Enum test result: " + String(enumTest))
+
+let protocolTest = testProtocol();
+print("protocol test result: " + String(protocolTest))
