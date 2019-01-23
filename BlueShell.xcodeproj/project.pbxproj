@@ -15,6 +15,7 @@
 		747263F421F4CEBF00B2517C /* BlueShellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747263F321F4CEBF00B2517C /* BlueShellTest.swift */; };
 		747263FA21F6252700B2517C /* struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747263F921F6252700B2517C /* struct.swift */; };
 		747263FC21F7682300B2517C /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747263FB21F7682300B2517C /* protocol.swift */; };
+		747263FE21F8BB8500B2517C /* error_handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747263FD21F8BB8500B2517C /* error_handle.swift */; };
 		747625FA21F0CDA300A773AB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747625F921F0CDA300A773AB /* main.swift */; };
 		7476260221F0CDC200A773AB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7476260121F0CDC200A773AB /* CoreBluetooth.framework */; };
 		7476260421F0CE1800A773AB /* basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476260321F0CE1800A773AB /* basic.swift */; };
@@ -43,6 +44,7 @@
 		747263F521F4CEBF00B2517C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		747263F921F6252700B2517C /* struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = struct.swift; sourceTree = "<group>"; };
 		747263FB21F7682300B2517C /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
+		747263FD21F8BB8500B2517C /* error_handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = error_handle.swift; sourceTree = "<group>"; };
 		747625F621F0CDA300A773AB /* BlueShell */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlueShell; sourceTree = BUILT_PRODUCTS_DIR; };
 		747625F921F0CDA300A773AB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7476260121F0CDC200A773AB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -102,6 +104,7 @@
 				747625F921F0CDA300A773AB /* main.swift */,
 				7414F1F621F4221400A9E30D /* bluetooth.swift */,
 				747263F921F6252700B2517C /* struct.swift */,
+				747263FD21F8BB8500B2517C /* error_handle.swift */,
 				747263FB21F7682300B2517C /* protocol.swift */,
 				7476260321F0CE1800A773AB /* basic.swift */,
 				7414F1F021F41ED500A9E30D /* variable.swift */,
@@ -224,6 +227,7 @@
 				747263FA21F6252700B2517C /* struct.swift in Sources */,
 				7414F1F321F41F7E00A9E30D /* class.swift in Sources */,
 				7414F1EF21F41DC100A9E30D /* function.swift in Sources */,
+				747263FE21F8BB8500B2517C /* error_handle.swift in Sources */,
 				7414F1F121F41ED500A9E30D /* variable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
