@@ -28,5 +28,8 @@ print("Swift unit test")
 //let protocolTest = testProtocol();
 //print("protocol test result: " + String(protocolTest))
 
-let errorTest = testErrorHandle();
-print("Error handle test result: " + String(errorTest))
+//let errorTest = testErrorHandle();
+//print("Error handle test result: " + String(errorTest))
+
+let genericsTest = testGenerics();
+print("generics test result: " + String(genericsTest))

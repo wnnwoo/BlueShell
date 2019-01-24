@@ -8,7 +8,6 @@
 
 import XCTest
 
-
 class BlueShellTest: XCTestCase {
 
     override func setUp() {
@@ -22,12 +21,11 @@ class BlueShellTest: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        
         XCTAssert(true)
     }
 
     func testClass()  {
-        XCTAssert(true) // Just for test
+        XCTAssert(testErrorHandle()) // Just for test
     }
     
     func testPerformanceExample() {
