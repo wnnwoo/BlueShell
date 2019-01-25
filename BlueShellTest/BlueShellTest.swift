@@ -21,11 +21,7 @@ class BlueShellTest: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssert(true)
-    }
-
-    func testClass()  {
-        XCTAssert(testErrorHandle()) // Just for test
+        XCTAssert(basicOperation())
     }
     
     func testPerformanceExample() {
