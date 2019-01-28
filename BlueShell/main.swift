@@ -31,5 +31,5 @@ print("Swift unit test")
 //let errorTest = testErrorHandle();
 //print("Error handle test result: " + String(errorTest))
 
-let genericsTest = testGenerics();
-print("generics test result: " + String(genericsTest))
+//let genericsTest = testGenerics();
+//print("generics test result: " + String(genericsTest))
